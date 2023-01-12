@@ -1,6 +1,7 @@
 body{
 	margin:0%;
-}
+	
+  }
 
   html{
 	scroll-behavior: smooth;
@@ -23,10 +24,9 @@ body{
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Poppins" , sans-serif;
-	}
+}
 	
-	#linqet_e_navigimit
-	{
+	#linqet_e_navigimit{
 		margin:0%;
 		padding: 0%;
 		  display: flex;
@@ -34,39 +34,44 @@ body{
 		  justify-content: center;
 		  align-items: center;
 	  }
+	  #linqet_e_navigimit li{
 
-#linqet_e_navigimit li{
-
-	list-style: none;
-	padding-right:  30px;
-	display: inline-block;
-	position: relative;
-
-}
-
-#linqet_e_navigimit li a{
-	border-bottom: 5px ;
-	border-bottom-left-radius: 8px;
-	border-bottom-right-radius:8px; 
-	border-right: 1px ;
-	border-top: 1px ;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
-	border-left: 1px ;
+		list-style: none;
+		padding-right:  30px;
+		position: relative;
+		display: inline-block;
+	}
+	#linqet_e_navigimit li a{
+		text-decoration: none;
+		font-size: 20px;
+		font-weight: 500;
+		color:#070606;
+		padding: 10px 10px;
+		cursor: pointer;	
+		text-transform: uppercase;
+	}
+	#linqet_e_navigimit li a{border-bottom: 5px ;
+		border-bottom-left-radius: 8px;
+		border-bottom-right-radius:8px; 
+		border-right: 1px ;
+		border-top: 1px ;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+		border-left: 1px ;
+		
+	}
 	
-}
-
-#linqet_e_navigimit li::after{
-	content: '';
-	height: 3px;
-	width: 0px;
-	background: #1d3581;
-	position: absolute;
-	left:0px;
-	bottom: -10px;
-	transition: 0.5s;
-}
-
-#linqet_e_navigimit li:hover::after{
-	width: 100%;
-}
+	#linqet_e_navigimit li::after{
+		content: '';
+		height: 3px;
+		width: 0px;
+		background: #1d3581;
+		position: absolute;
+		left:0px;
+		bottom: -10px;
+		transition: 0.5s;
+	}
+	
+	#linqet_e_navigimit li:hover::after{
+		width: 100%;
+	}
