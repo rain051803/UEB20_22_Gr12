@@ -23,6 +23,12 @@ html{
 	border-bottom: 1px solid #2e2b29;
 	height: 80px;
 }
+#linqet_e_navigimit {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
 
 #linqet_e_navigimit li{
 
@@ -70,9 +76,9 @@ html{
 }
 
 .prapavija{
-	background-image: url(../images/tour3.jpg);
-	width: 1760px;
-	height: 720px;
+	background-image: url(../images/tour13.webp);
+	width: 1349px;
+	height: 700px;
 	background-size: cover;
 	z-index: -1;
 }
