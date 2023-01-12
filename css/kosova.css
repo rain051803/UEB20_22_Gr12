@@ -10,12 +10,15 @@
 	z-index: 9999;
 	border-bottom: 1px solid #2e2b29;
 	height: 80px;
+}
+	*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Poppins" , sans-serif;
+	}
 	
-}
+
 #linqet_e_navigimit li{
 
 	list-style: none;
