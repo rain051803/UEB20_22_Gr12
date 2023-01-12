@@ -60,18 +60,11 @@
 
 }
 
-.pie {
-	width: 300px;
-	/* background: #282e34; */
-	border-radius: 50%;
-	margin-left: -10%;
-	background-image: url(https://assets.thehansindia.com/h-upload/2019/12/27/248830-worldtour.jpg);
-}
-
-.pie circle {
-	fill: none;
-	stroke-width: 32;
-	animation: rotate 1.5s ease-in;
-	/* margin-left: 90%; */
+.prapavija{
+	background-image: url(../images/touri1.jpg);
+	width:100%;
+	height: 100vh;
+	background-size: cover;
+	z-index: -1;
 }
 
