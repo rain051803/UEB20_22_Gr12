@@ -69,3 +69,10 @@ html{
 #linqet_e_navigimit li:hover::after{
 	width: 100%;
 }
+.prapavija{
+	background-image: url(../images/foto1.jpg);
+	width:100%;
+	height: 100vh;
+	background-size: cover;
+	z-index: -1;
+}
