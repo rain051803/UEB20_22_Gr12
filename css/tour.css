@@ -76,10 +76,93 @@ html{
 }
 
 .prapavija{
-	background-image: url(../images/tour9.jpg);
+	background-image: url(../images/tour13.webp);
 	width: 1349px;
 	height: 700px;
 	background-size: cover;
 	z-index: -1;
+}
+
+.button11 {
+    display: inline-flex;
+    height: 40px;
+    width: 150px;
+    border: 2px solid #0505058e;
+    margin: 20px 20px 20px 20px;
+    color: #0707078e;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.button11 a {
+    color: #0000008e;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#button-5 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#button-5 a {
+    position: relative;
+    transition: all .45s ease-Out;
+}
+
+
+#translate {
+    transform: rotate(50deg);
+    width: 100%;
+    height: 250%;
+    left: -200px;
+    top: -30px;
+    background: #000000;
+    position: absolute;
+    transition: all .3s ease-Out;
+}
+
+#button-5:hover #translate {
+    left: 0;
+}
+
+#button-5:hover a {
+    color: #ffffff;
+}
+
+#bar {
+    color: #ff5733;
+    display: none;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/wallpaper_tour.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.stylediv1,
+.stylediv2,
+.stylediv3 {
+    width: 27%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    list-style-type: none;
+    font-size: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0px 60px rgba(233, 219, 219, 0.233), 0 0px 50px rgba(233, 219, 219, 0.333), 0 0px 30px rgba(233, 219, 219, 0.417), 0 0px 16px rgba(233, 219, 219, 0.517), 0 0px 20px rgba(233, 219, 219, 0.75);
+    padding: 20px;
+    border-radius: 50px;
 }
 
