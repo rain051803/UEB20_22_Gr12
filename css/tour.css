@@ -248,3 +248,36 @@ td {
     color: white;
     border-radius: 20px 20px 0 0;
 }
+
+#video1 {
+    width: 360px;
+}
+
+.slide {
+    width: 800px;
+    height: 500px;
+    background: url("../images/malta1.jpg");
+    margin: 100px auto;
+    animation: slide 15s infinite;
+}
+
+@keyframes slide {
+    25% {
+        background: url("../images/aus6.jpg");
+    }
+    40% {
+        background: url("../images/india6.jpg");
+    }
+    55% {
+        background: url("../images/india11.webp");
+    }
+    70% {
+        background: url("../images/india5.jpg");
+    }
+    85% {
+        background: url("../images/india7.jpg");
+    }
+    100% {
+        background: url("../images/malta7.jpg");
+    }
+}
