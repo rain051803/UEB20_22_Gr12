@@ -166,3 +166,38 @@ html{
     border-radius: 50px;
 }
 
+.stylediv1 b,
+.stylediv2 b,
+.stylediv3 b {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#gradient1,
+#gradient2,
+#gradient3 {
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+.travel h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 25%;
+    padding: 40px;
+    text-align: center;
+}
+
+.travel1-img img {
+    width: 25%;
+    height: 390px;
+    margin-left: 6%;
+    border-radius: 8px;
+    box-shadow: 0 0px 60px rgba(233, 219, 219, 0.233), 0 0px 50px rgba(233, 219, 219, 0.333), 0 0px 30px rgba(233, 219, 219, 0.417), 0 0px 16px rgba(233, 219, 219, 0.517), 0 0px 20px rgba(233, 219, 219, 0.75);
+}
+
+.travel1-details {
+    padding: 20px;
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
