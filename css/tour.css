@@ -23,6 +23,12 @@ html{
 	border-bottom: 1px solid #2e2b29;
 	height: 80px;
 }
+#linqet_e_navigimit {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
 
 #linqet_e_navigimit li{
 
@@ -70,10 +76,325 @@ html{
 }
 
 .prapavija{
-	background-image: url(../images/tour3.jpg);
-	width: 1760px;
-	height: 720px;
+	background-image: url(../images/tour13.webp);
+	width: 1349px;
+	height: 700px;
 	background-size: cover;
 	z-index: -1;
 }
 
+.button11 {
+    display: inline-flex;
+    height: 40px;
+    width: 150px;
+    border: 2px solid #0505058e;
+    margin: 20px 20px 20px 20px;
+    color: #0707078e;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: .8em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.button11 a {
+    color: #0000008e;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#button-5 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#button-5 a {
+    position: relative;
+    transition: all .45s ease-Out;
+}
+
+
+#translate {
+    transform: rotate(50deg);
+    width: 100%;
+    height: 250%;
+    left: -200px;
+    top: -30px;
+    background: #000000;
+    position: absolute;
+    transition: all .3s ease-Out;
+}
+
+#button-5:hover #translate {
+    left: 0;
+}
+
+#button-5:hover a {
+    color: #ffffff;
+}
+
+#bar {
+    color: #ff5733;
+    display: none;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/tour13.webp");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.contenth1 h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.stylediv1,
+.stylediv2,
+.stylediv3 {
+    width: 27%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+    list-style-type: none;
+    font-size: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0px 60px rgba(233, 219, 219, 0.233), 0 0px 50px rgba(233, 219, 219, 0.333), 0 0px 30px rgba(233, 219, 219, 0.417), 0 0px 16px rgba(233, 219, 219, 0.517), 0 0px 20px rgba(233, 219, 219, 0.75);
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.stylediv1 b,
+.stylediv2 b,
+.stylediv3 b {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#gradient1,
+#gradient2,
+#gradient3 {
+    margin-top: 30px;
+    list-style-type: none;
+}
+
+.travel h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 25%;
+    padding: 40px;
+    text-align: center;
+}
+
+.travel1-img img {
+    width: 25%;
+    height: 390px;
+    margin-left: 6%;
+    border-radius: 8px;
+    box-shadow: 0 0px 60px rgba(233, 219, 219, 0.233), 0 0px 50px rgba(233, 219, 219, 0.333), 0 0px 30px rgba(233, 219, 219, 0.417), 0 0px 16px rgba(233, 219, 219, 0.517), 0 0px 20px rgba(233, 219, 219, 0.75);
+}
+
+.travel1-details {
+    padding: 20px;
+    text-align: justify;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.travel1-details h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.travel1.fa {
+    font-size: 15px;
+    color: #ff5722;
+}
+
+.contenth1 {
+    color: #ffff;
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 45px;
+}
+
+table {
+	width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   border-collapse: collapse;
+   background-color: rgb(211, 226, 241);
+   border: none;
+   margin-top: 20px;
+}
+
+.divi33 {
+    width: 100%;
+    overflow: hidden;
+}
+
+th,
+td {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 12px 5px;
+}
+
+#thead th {
+    background-color: rgb(48, 122, 219);
+    color: white;
+    border-radius: 20px 20px 0 0;
+}
+
+#video1 {
+    width: 360px;
+}
+
+.slide {
+    width: 800px;
+    height: 500px;
+    background: url("../images/malta1.jpg");
+    margin: 100px auto;
+    animation: slide 15s infinite;
+}
+
+@keyframes slide {
+    25% {
+        background: url("../images/aus6.jpg");
+    }
+    40% {
+        background: url("../images/india6.jpg");
+    }
+    55% {
+        background: url("../images/india11.webp");
+    }
+    70% {
+        background: url("../images/india5.jpg");
+    }
+    85% {
+        background: url("../images/india7.jpg");
+    }
+    100% {
+        background: url("../images/malta7.jpg");
+    }
+}
+
+
+footer{
+    background-color: #998c85;
+    line-height: 24px;
+    color:white;
+  }
+  
+  .art{
+    background-color: #171819;
+    padding: 16px;
+    padding-top: 48px;
+    clip-path: polygon(0% 5%,15% 0%, 100% 10%, 100% 100%, 0% 100%);
+  }
+  
+  .content{
+    max-width: 1080px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 16px;
+  }
+  
+  footer header{
+    font-size: 25px;
+    padding:16px;
+  }
+  
+  .content a{
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    padding: 16px;
+    color: white;
+    opacity: 0.65;
+  }
+  
+  .content a:hover{
+    opacity: 1;
+    color: #998c85;
+    font-size: 17px;
+    transition: all 0.3s ease 0s;
+  }
+
+  footer input{
+    border-style: solid;
+    line-height: 24px;
+    padding: 12px 16px;
+    font-size: 1rem;
+    width:80%;
+    margin:8px;
+    border-radius: 8px;
+    border-width: 2px;
+  }
+  footer input[type='mail']{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+  }
+  
+  footer input[type='mail']:hover,
+  footer input[type='mail']:focus{
+    border-color:#ffff00; 
+    color: #ffff00;
+    transition: all 0.3s ease 0s;
+  }
+  
+  
+  footer a {
+      text-decoration: none;
+      margin: 0%;
+      padding: 0%;
+    }
+
+	.social{
+		margin:16px;
+		display: grid;
+		grid-template-columns: repeat(5,1fr);
+		grid-gap: 16px;
+	  }
+	  
+	  .social i{
+		font-size: 32px;
+		padding: 8px;
+		text-align: center;
+		border:1px solid #ffff0031;
+		border-radius: 8px;
+		width: 100%
+	  }
+	  .social a{
+	  text-decoration: none;
+	  margin: 0%;
+	  padding: 0%;
+		}
+	  
+	  .social i:hover{
+		color:#ffff00;
+		border-color: #ffff00;
+		box-shadow: 0px 0px 16px inset #ffff0031;
+		transition: all 0.3s ease 0s;
+	  }
+
+	  .notice{
+		text-align: center;
+		padding: 24px;
+	  }
+	  
+	  .notice strong{
+		color:red;
+		text-transform: uppercase;
+	  }
+	
+	
