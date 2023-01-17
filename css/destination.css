@@ -22,7 +22,7 @@ body{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Poppins" , sans-serif;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
 }
 	
 	#linqet_e_navigimit{
@@ -156,7 +156,7 @@ body{
     }
     table{
         width: 100%;
-        /*border-spacing: 40px;*/
+        border-spacing: 40px;
     }
     
     th{
@@ -182,5 +182,26 @@ body{
         height: 580px;
         border-radius: 5px;
     }
+    /*style per pjesen e dyte*/
+    #places2{
+        width: 100%;
+        padding: 70px 0;
+    }
     
+    .contenth4{
+        text-align: center;
+        padding-bottom: 40px;
+        margin-top: 130px;
+    }
+    
+    .contenth4 p{
+        margin: auto;
+        font-size: 50px;
+        color: #171819;
+        font-weight: bold;
+        position: relative;
+        z-index: 1;
+        display: inline-block;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    }
     
