@@ -255,3 +255,79 @@ body{
         height: 580px;
         border-radius: 10px;
     }
+    /*--Places3--*/
+
+#places3{
+    width: 100%;
+    padding: 70px 0;
+}
+
+.contenth6{
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 130px;
+}
+
+.contenth6 p{
+    margin: auto;
+    font-size: 50px;
+    color: #171819;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+.contenth7{
+    width: 80%;
+    margin: auto;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenth7 p{
+    font-family:"Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans";
+}
+
+.places3{
+    flex-basis: 50%;
+}
+
+.places3 h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 100;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.contenth3-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contenth3-text p{
+    padding: 0 20px;
+    text-align: initial;
+    font-size: 20px;
+}
+
+.contenth3-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.contenth3-img img{
+    width: 70%;
+    height: 580px;
+    border-radius: 10px;
+}
