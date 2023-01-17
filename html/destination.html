@@ -47,3 +47,55 @@
                         on the journey to the northernmost region of Japan's main island.</p>
                 </div>
             </div>
+            <table class = "Njetabel">
+                <tr>
+                    <th>ENTRY - Daily</th>
+                    <th> </th>
+                </tr>
+                <tr>
+                <td>Adults - 18 to 64 years of age</td>
+                <td>$10.00</td>
+                </tr>
+                <tr>
+                    <td>Seniors - 65 years of age or over</td>
+                    <td>$8.40</td>
+                </tr>
+                <tr>
+                    <td>A Youth - 6 to 17 years of age</td>
+                    <td>FREE</td>
+                </tr>
+                <tr>
+                    <td>Family/Group - up to seven people arriving in a single vehicle in
+                        a national park</td>
+                    <td>$20.00</td>
+                </tr>
+                <tr>
+                    <td>Commercial Group, per person</td>
+                    <td>$8.40</td>
+                </tr>
+            </table>
+    <button id="btnHide">hide</button>
+            <button id="btnShow">show</button>
+        </div>
+        <div class="contenth-img">
+            <img src="../images/vertical.webp">
+        </div>
+<script type="text/javascript">
+            $(document).ready(function () {
+                $("#btnHide").click(function () {
+
+                    $(".contenth-text").hide(); //fsheh elementin h2\ 
+                    $(".Njetabel").hide();
+                }
+                );
+                $("#btnShow").click(function () {
+                    $(".contenth-text").show();//shfaqe heading h2
+                    $(".Njetabel").show();
+                }
+                );
+
+            }
+            );
+        </script>
+    </div>
+</section>
