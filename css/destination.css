@@ -217,7 +217,7 @@ body{
     }
     
     .contenth5 p{
-        font-family: 'Indie Flower', cursive;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
     }
     
     .places2{
@@ -229,8 +229,13 @@ body{
         margin-bottom: 25px;
         font-weight: 100;
         color: black;
-        font-family: 'Indie Flower', cursive;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
         font-size: 30px;
         text-decoration: underline;
+    }
+    .contenth2-desc{
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
     }
     
