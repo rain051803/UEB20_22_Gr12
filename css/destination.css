@@ -238,4 +238,19 @@ body{
         align-items: center;
         margin-bottom: 40px;
     }
+    .contenth2-text p{
+        padding: 0 20px;
+        text-align: initial;
+        font-size: 20px;
+    }
     
+    .contenth2-img{
+        flex-basis: 50%;
+        margin: auto;
+    }
+    
+    .contenth2-img img{
+        width: 70%;
+        height: 580px;
+        border-radius: 10px;
+    }
