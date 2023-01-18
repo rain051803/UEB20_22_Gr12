@@ -111,11 +111,9 @@ html{
 	}
 	.lista  {
 		border:2px ;
-		border-style:dashed;
 		margin-top: 20px;
 		margin-left: 5px;
 		margin-right: 50px;
-		background-color:lightcyan;
 	 }
 		 .slider{
 		   width:800px;
