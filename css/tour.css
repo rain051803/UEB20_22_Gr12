@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
 *{
 	margin: 0;
 	padding: 0;
@@ -76,9 +78,9 @@ html{
 }
 
 .prapavija{
-	background-image: url(../images/tour13.webp);
-	width: 1349px;
-	height: 700px;
+	background-image: url(../images/rns4.jpg);
+	width: 512px;
+	height: 340px;
 	background-size: cover;
 	z-index: -1;
 }
@@ -138,20 +140,20 @@ html{
 }
 
 #bar {
-    color: #ff5733;
+    color: #24a3f8;
     display: none;
 }
 
 .main {
     width: 100%;
     height: 100vh;
-    background-image: url("../images/tour13.webp");
+    background-image: url("../images/rns.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
-.contenth1 h4 {
+.contenth1 h2 {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -217,14 +219,19 @@ html{
     color: #ff5722;
 }
 
-.contenth1 {
-    color: #ffff;
-    position: absolute;
-    top: 20%;
+
+
+.contenth1{
+    color:#ffff;
+    position:absolute;
+    top: 25%;
+    left: 5%;
     text-align: center;
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 45px;
-}
+  
+  }
 
 table {
 	width: 80%;
@@ -248,7 +255,7 @@ td {
 }
 
 #thead th {
-    background-color: rgb(48, 122, 219);
+    background-color: #24a3f8;
     color: white;
     border-radius: 20px 20px 0 0;
 }
@@ -288,13 +295,13 @@ td {
 
 
 footer{
-    background-color: #998c85;
+    background-color: #738dac;
     line-height: 24px;
     color:white;
   }
   
   .art{
-    background-color: #171819;
+    background-color: #121c29;
     padding: 16px;
     padding-top: 48px;
     clip-path: polygon(0% 5%,15% 0%, 100% 10%, 100% 100%, 0% 100%);
@@ -318,13 +325,13 @@ footer{
     text-decoration: none;
     display: block;
     padding: 16px;
-    color: white;
+    color: rgb(255, 255, 255);
     opacity: 0.65;
   }
   
   .content a:hover{
     opacity: 1;
-    color: #998c85;
+    color: #868de7;
     font-size: 17px;
     transition: all 0.3s ease 0s;
   }
@@ -347,8 +354,8 @@ footer{
   
   footer input[type='mail']:hover,
   footer input[type='mail']:focus{
-    border-color:#ffff00; 
-    color: #ffff00;
+    border-color:#00b7ff; 
+    color: #00b7ff;
     transition: all 0.3s ease 0s;
   }
   
@@ -381,8 +388,8 @@ footer{
 		}
 	  
 	  .social i:hover{
-		color:#ffff00;
-		border-color: #ffff00;
+		color:#00b7ff;
+		border-color: #00b7ff;
 		box-shadow: 0px 0px 16px inset #ffff0031;
 		transition: all 0.3s ease 0s;
 	  }
@@ -393,8 +400,6 @@ footer{
 	  }
 	  
 	  .notice strong{
-		color:red;
+		color:rgb(255, 0, 0);
 		text-transform: uppercase;
 	  }
-	
-	
