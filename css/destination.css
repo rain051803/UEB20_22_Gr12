@@ -405,3 +405,77 @@ body{
     height: 580px;
     border-radius: 10px;
 }
+#places5{
+    width: 100%;
+    padding: 70px 0;
+}
+
+.contenth10{
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 130px;
+}
+
+.contenth10 p{
+    margin: auto;
+    font-size: 50px;
+    color: #171819;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+.contenth11{
+    width: 80%;
+    margin: auto;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenth11 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+.places5{
+    flex-basis: 50%;
+}
+
+.places5 h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 100;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.contenth5-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contenth5-text p{
+    padding: 0 20px;
+    text-align: initial;
+    font-size: 20px;
+}
+
+.contenth5-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.contenth5-img img{
+    width: 70%;
+    height: 580px;
+    border-radius: 10px;
+}
