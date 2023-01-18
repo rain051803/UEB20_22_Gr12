@@ -331,3 +331,77 @@ body{
     height: 580px;
     border-radius: 10px;
 }
+#places4{
+    width: 100%;
+    padding: 70px 0;
+}
+
+.contenth8{
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 130px;
+}
+
+.contenth8 p{
+    margin: auto;
+    font-size: 50px;
+    color: #171819;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+.contenth9{
+    width: 85%;
+    margin: auto;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.contenth9 p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+
+.places4{
+    flex-basis: 50%;
+}
+
+.places4 h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 100;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-size: 30px;
+    text-decoration:underline;
+}
+
+.contenth4-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contenth4-text p{
+    padding: 0 20px;
+    text-align: initial;
+    font-size: 20px;
+}
+
+.contenth4-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.contenth4-img img{
+    width: 70%;
+    height: 580px;
+    border-radius: 10px;
+}
