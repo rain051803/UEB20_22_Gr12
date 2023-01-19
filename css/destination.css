@@ -480,13 +480,13 @@ body{
     border-radius: 10px;
 }
 footer{
-    background-color: #998c85;
+    background-color: #738dac;
     line-height: 24px;
     color:white;
   }
   
   .art{
-    background-color: #171819;
+    background-color: #121c29;
     padding: 16px;
     padding-top: 48px;
     clip-path: polygon(0% 5%,15% 0%, 100% 10%, 100% 100%, 0% 100%);
@@ -510,13 +510,13 @@ footer{
     text-decoration: none;
     display: block;
     padding: 16px;
-    color: white;
+    color: rgb(255, 255, 255);
     opacity: 0.65;
   }
   
   .content a:hover{
     opacity: 1;
-    color: #998c85;
+    color: #868de7;
     font-size: 17px;
     transition: all 0.3s ease 0s;
   }
@@ -539,8 +539,8 @@ footer{
   
   footer input[type='mail']:hover,
   footer input[type='mail']:focus{
-    border-color:#ffff00; 
-    color: #ffff00;
+    border-color:#00b7ff; 
+    color: #00b7ff; ;
     transition: all 0.3s ease 0s;
   }
   
@@ -573,8 +573,8 @@ footer{
     }
   
   .social i:hover{
-    color:#ffff00;
-    border-color: #ffff00;
+    color: #00b7ff;
+    border-color:  #00b7ff;
     box-shadow: 0px 0px 16px inset #ffff0031;
     transition: all 0.3s ease 0s;
   }
