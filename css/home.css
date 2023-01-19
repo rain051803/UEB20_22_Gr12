@@ -138,6 +138,21 @@ html{
 	padding-bottom: 48px;
 }
 
+.Te_dhena .one a{
+	color:#fff;
+	background-color: #f13a11;
+	padding: 16px 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.Te_dhena .one a:hover{
+	background-color: #fff;
+	color:#f13a11;
+	transition: all 0.3s ease 0s;
+	font-weight: 600;
+}
 
 .Te_dhena .two{
 	width: 45%;
@@ -162,21 +177,72 @@ html{
 	margin-bottom: 12.8px;
 }
 
+.kontakt{
+	padding: 128px;
+	justify-content: space-between;
+	width:60%;
+	
+
+}
+
+.kontakt h2{
+	font-size: 32px;
+	color:#212529;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+.kontakt  .submit input, .kontakt .submit textarea{
+	width: 100%;
+	padding: 15px;
+	border:1px solid #95a5a6;
+	outline: none;
+	margin:13px 0;
+}
 
 
+.kontakt  .submit input:focus, .kontakt .submit textarea:focus{
+	border:1px solid #111;
+}
+
+.kontakt .submit input::placeholder{
+	color:#7f8c8d;
+	font-size: 17.6px;
+}
+
+input[type='file']{
+	display: none;
+
+}
+
+label[for='file']{
+	color: black;
+	height: 30px;
+	width: 150px;
+	background-color: #f5af09;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
 
 
+#button1{
+	background-color: #070606;
+	margin: 13px 0px;
+	display: flex;
+	justify-content: center;
+	height: 30px;
+	text-decoration: none;
+}
 
-
-
-
-
-
-
-
-
-
-
+#button1 :hover{
+	border-bottom: 4px solid red;
+	background-color: #111;
+	color:#fff;
+	font-weight: 600;
+	transition: all 0.3s ease 0s;
+}
 
 
 
