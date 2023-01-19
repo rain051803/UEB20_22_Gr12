@@ -7,7 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Guide</title>
     <link rel="stylesheet" type="text/css" href="../css/destination.css">
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script> 
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").slideDown("slow");
+          });
+        });
+        </script>
 </head>
 <body>
     
@@ -28,6 +35,7 @@
 <section id="place">
     <div class="contenth2">
         <p style="text-align:center"><b><i>Detailed information about underrated places you have to visit:</b></i></p>
+          
     </div>
     <div class="tohoku">
         <p>Tohoku</p>
@@ -75,13 +83,13 @@
                     <td>$8.40</td>
                 </tr>
             </table>
-    <button id="btnHide">hide</button>
+            <button id="btnHide">hide</button>
             <button id="btnShow">show</button>
         </div>
         <div class="contenth-img">
             <img src="../images/vertical.webp">
         </div>
-               <script type="text/javascript">
+        <script type="text/javascript">
             $(document).ready(function () {
                 $("#btnHide").click(function () {
 
@@ -98,6 +106,8 @@
             }
             );
         </script>
+
+        
     </div>
 </section>
 <!--Places2-->
@@ -132,6 +142,16 @@
                 </tr>
             </table>
         </div>
+        <button id="butoni">Hide</button>
+        <script type ="text/javascript">
+            $(document).ready(function(){
+              $("#butoni").click(function(){
+                $("td").hide("slow", function(){
+                  alert("The table data is now hidden");
+                });
+              });
+            });
+            </script>
         <div class="contenth2-img">
             <img src="../images/borabora.jpg">
         </div>
@@ -263,6 +283,25 @@
         </div>
     </div>
     </section>
+      <style> 
+      #panel, #flip {
+        padding: 5px;
+        text-align: center;
+        background-color: #278db1;
+        border: solid 1px #46d3da;
+      }
+      
+      #panel {
+        padding: 50px;
+        display: none;
+      }
+      </style>
+      </head>
+      <body>
+       
+      <div id="flip">Click for more!</div>
+      <div id="panel">Thank you for scrolling down the bottom!</div>
+      
     <br>
     <footer>
         <div class="art">
@@ -300,10 +339,7 @@
         </div>
       </footer>
 
-
-      <script src=></script>
-
-
+      <script src="../js/indexi.js"></script>
 </body>
 </html>
 
