@@ -80,7 +80,6 @@
         color: #171819;
         font-weight: bold;
         position: relative;
-        z-index: 1;
         display: inline-block;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
     }
@@ -103,7 +102,6 @@
         color: #171819;
         font-weight: normal;
         position: relative;
-        z-index: 1;
         display: inline-block;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
     }
@@ -127,6 +125,7 @@
     .places{
         flex-basis: 50%;
     }
+    
     
     .places h1{
         text-align: center;
@@ -475,8 +474,8 @@
 }
 footer{
     background-color: #738dac;
-    line-height: 24px;
-    color:white;
+    line-height: 25px;
+    color: white;
   }
   
   .art{
@@ -490,7 +489,7 @@ footer{
     max-width: 1080px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns:repeat(3,1fr);
     grid-gap: 16px;
   }
   
