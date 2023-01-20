@@ -3,31 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <script src="js/jquery-3.5.1.min.js"></script>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Guide</title>
     <link rel="stylesheet" type="text/css" href="../css/destination.css">
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/0a786c01b2.js" crossorigin="anonymous"></script>
+    <script> 
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").slideDown("slow");
+          });
+        });
+        </script>
 </head>
 <body>
     
-<div class="navigimi">
-    <a href ="home.html"><img src="../images/logo.png"></a>   
+<div class="navigimi"></ul>
+    <a href ="home.html"><img src= "../images/logo.png" ></a>   
     
-    <ul id="linqet_e_navigimit">
+    <ul id ="linqet_e_navigimit">
          <li><a href="home.html">Home</a></li>
          <li><a href="kosova.html">Kosova</a></li>
          <li><a href="destination.html">Destination</a></li>
          <li><a href="tour.html">Tour</a></li>
          <li><a href="ContactUs.html">Contact Us</a></li>
         </ul>
-        <i id="bar" class="fas fa-bars" aria-hidden="true"></i>
            </div>
 <!--Places-->
-<br><br><br><br><br>
+<br><br><br>
 <section id="place">
     <div class="contenth2">
-        <p style="text-align:center"><b><i>Detailed information about underrated places you have to visit:</b></i></p>
+        <h2 style="text-align:center"><b><i>Detailed information about underrated places you have to visit!</b></i><h2>
+          
     </div>
     <div class="tohoku">
         <p>Tohoku</p>
@@ -75,29 +85,31 @@
                     <td>$8.40</td>
                 </tr>
             </table>
-    <button id="btnHide">Hide</button>
-            <button id="btnShow">Show</button>
+            <button id="btnHide">hide</button>
+            <button id="btnShow">show</button>
         </div>
         <div class="contenth-img">
             <img src="../images/vertical.webp">
         </div>
-<script type="text/javascript">
+        <script type="text/javascript">
             $(document).ready(function () {
                 $("#btnHide").click(function () {
 
-                    $(".contenth-text").Hide(); //fsheh elementin h2\ 
-                    $(".Njetabel").Hide();
+                    $(".contenth-text").hide(); //fsheh elementin h2\ 
+                    $(".Njetabel").hide();
                 }
                 );
                 $("#btnShow").click(function () {
-                    $(".contenth-text").Show();//shfaqe heading h2
-                    $(".Njetabel").Show();
+                    $(".contenth-text").show();//shfaqe heading h2
+                    $(".Njetabel").show();
                 }
                 );
 
             }
             );
         </script>
+
+        
     </div>
 </section>
 <!--Places2-->
@@ -131,7 +143,18 @@
                         vacation rentals can be booked for as low as $120 per night.</td>
                 </tr>
             </table>
+            <br>
         </div>
+        <button id="butoni">Hide</button>
+        <script type ="text/javascript">
+            $(document).ready(function(){
+              $("#butoni").click(function(){
+                $("td").hide("slow", function(){
+                  alert("The table data is now hidden");
+                });
+              });
+            });
+            </script>
         <div class="contenth2-img">
             <img src="../images/borabora.jpg">
         </div>
@@ -216,7 +239,7 @@
 
   <section id="place5">
     <div class="contenth10">
-        <p>Iceland</p>
+        <p><highlight>Iceland</highlight></p>
     </div>
     <div class="contenth11">
         <div class="places5">
@@ -263,6 +286,25 @@
         </div>
     </div>
     </section>
+      <style> 
+      #panel, #flip {
+        padding: 10px;
+        text-align: center;
+        background-color: #278db1;
+        border: solid 1px #46d3da;
+      }
+      
+      #panel {
+        padding: 30px;
+        display: none;
+      }
+      </style>
+      </head>
+      <body>
+       
+      <div id="flip">Click for more!</div>
+      <div id="panel">Thank you for scrolling down the bottom!</div>
+      
     <br>
     <footer>
         <div class="art">
@@ -300,8 +342,7 @@
         </div>
       </footer>
 
-<script src="js/index.js"></script>
-
+      <script src="../js/indexi.js"></script>
 </body>
 </html>
 
