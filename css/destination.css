@@ -6,10 +6,9 @@
 }
 .navigimi{
 	position: fixed;
-	display:flex;
+    display:flex;
 	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
+    justify-content: space-between;
 	width: 100%;
 	padding: 16px 104px;
 	background:#fff;
