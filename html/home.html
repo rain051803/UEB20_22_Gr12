@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Guide</title>
     <link rel="stylesheet" type="text/css" href="../css/home.css">
-    
-</head>
-<body>
-    
-<div class="navigimi">
-    <a href ="home.html"><img src="../images/logo.png"></a>   
-    
-    <ul id="linqet_e_navigimit">
-         <li><a href="home.html">Home</a></li>
-         <li><a href="kosova.html">Kosova</a></li>
-         <li><a href="destination.html">Destination</a></li>
-         <li><a href="tour.html">Tour</a></li>
-         <li><a href="ContactUs.html">Contact Us</a></li>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
 
- </ul>
- <i id="bar" class="fas fa-bars" aria-hidden="true"></i>
-    </div>
+<body>
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+       
+<div class="navigimi">
+  <a href ="home.html"><img src= "../images/logo.png" ></a>   
+  
+  <ul id ="linqet_e_navigimit">
+       <li><a href="home.html">Home</a></li>
+       <li><a href="kosova.html">Kosova</a></li>
+       <li><a href="destination.html">Destination</a></li>
+       <li><a href="tour.html">Tour</a></li>
+       <li><a href="contactus.html">Contact Us</a></li>
+      </ul>
+         </div>
 
     <div class="prapavija">
         <div class="prapavija"></div>
@@ -34,11 +38,15 @@
 		
 	</div>
     
-    <div class="Te_dhenat">
+    <div class="Te_dhena">
+    <div class="d-flex">
 <div class="one">
     <h3>New to the Website?</h3>
 			<h6>To be decited , this is not gud i dont now vat to rajt hir</h6>
-			<p>Our company helps you reunite with your family members who are abroad, it helps you to reach your destination at anytime, anywhere.</p>
+			<p>Our company helps you reunite with your family members who are abroad,
+         it helps you to reach your destination at anytime, anywhere.</p>
+         <a href="contactus.html">About us</a>
+    </div>
 	<div class="two">
         <h3>Working Hours</h3>
         <br>
@@ -46,10 +54,110 @@
         <br>
         <h5>Monday-Thursday</h5>
         <p>8:00 - 18:00</p>
-        <h5>Fruday-Saturday</h5>
+        <h5>Friday-Saturday</h5>
         <p>8:00 -16:00</p>
     </div>		
-</div>
-    </div>
 
+    </div>
+</div>
+<div class="d-flex flex-column">
+<div class="kontakt" >
+  
+    <h2>Share your journey</h2>
+    <div class="submit">
+      <div >
+      <input type="text" name="" placeholder="name" required>
+      </div>
+      <div >
+      <input type="email" name="" placeholder="email" required>
+      </div>
+      <div>
+      <textarea placeholder="Message"></textarea>
+      </div>
+      <div>
+        <input type="file" id="file" accept="image/*">
+        
+        <label for="file">
+          <i class="material-icons">add_photo_alternate</i>
+          Choose a Photo
+        </label>
+        </div>
+      </div>
     
+         <br>
+        <button type="submit" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#myModal"
+        >Submit</button>
+        
+      
+        <div class="modal center" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content ">
+                    <div class="modal-header">
+                        <img src="../images/tick.png" width="50px">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                            <p>Your photo has been submitted successfully!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-success" data-bs-dismiss="modal" >Close</button>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+  
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+    <div class="art">
+      <div class="content">
+        <section>
+          <header>Agency</header>
+          <a href="Contact-us.html">About</a>
+          <a href="Contact-us.html">Contact us</a>
+          <a href="Contact-us.html">Team</a>
+        </section>
+        <section>
+          <header>Development</header>
+          <a href="home.html">Website</a>
+          <a href="tour.html">Tour</a>
+          <a href="https://travel.state.gov/">Travel</a>
+        </section>
+        <section>
+          <header>More and more</header>
+          <form action="">
+            <input type="email" placeholder="Your email" id="">
+            <a href="https://www.youtube.com/">Subscribe</a>
+          </form>
+          <div class="social">
+               <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.telegram.com/"><i class="fab fa-telegram-plane"></i></a>
+          </div>
+        </section>
+      </div>
+      <div class="notice">
+        Copyright protected &copy;
+        <strong>All rights reserved</strong>
+      </div>
+    </div>
+  </footer>
+  
+</body>

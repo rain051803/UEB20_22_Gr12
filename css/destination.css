@@ -1,79 +1,60 @@
-body{
-	margin:0%;
-	
-  }
-  html{
-	scroll-behavior: smooth;
-}
-.navigimi{
-	position: fixed;
-	display:flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	width: 100%;
-	padding: 16px 104px;
-	background:#fff;
-	z-index: 100000;
-	border-bottom: 1px solid #2e2b29;
-	height: 80px;
-}
-	*{
+   *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+	font-family:"Poppins", sans-serif;
 }
-	
-	#linqet_e_navigimit{
-		margin:0%;
-		padding: 0%;
-		  display: flex;
-		  flex-direction: row;
-		  justify-content: center;
-		  align-items: center;
-	  }
-	  #linqet_e_navigimit li{
+.navigimi{
+	position: fixed;
+    display:flex;
+	flex-direction: row;
+    justify-content: space-between;
+	width: 100%;
+	padding: 16px 104px;
+	background:#fff;
+	z-index: 9999;
+	border-bottom: 1px solid #423e3c;
+	height: 80px;
+}
+#linqet_e_navigimit {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
 
-		list-style: none;
-		padding-right:  30px;
-		position: relative;
-		display: inline-block;
-	}
-	#linqet_e_navigimit li a{
-		text-decoration: none;
-		font-size: 20px;
-		font-weight: 500;
-		color:#070606;
-		padding: 10px 10px;
-		cursor: pointer;	
-		text-transform: uppercase;
-	}
-	#linqet_e_navigimit li a{border-bottom: 5px ;
-		border-bottom-left-radius: 8px;
-		border-bottom-right-radius:8px; 
-		border-right: 1px ;
-		border-top: 1px ;
-		border-top-left-radius: 8px;
-		border-top-right-radius: 8px;
-		border-left: 1px ;
-		
-	}
-	
-	#linqet_e_navigimit li::after{
-		content: '';
-		height: 3px;
-		width: 0px;
-		background: #1d3581;
-		position: absolute;
-		left:0px;
-		bottom: -10px;
-		transition: 0.5s;
-	}
-	
-	#linqet_e_navigimit li:hover::after{
-		width: 100%;
-	}
+#linqet_e_navigimit li{
+
+	list-style: none;
+	padding-right:  30px;
+	position: relative;
+	display: inline-block;
+}
+#linqet_e_navigimit li a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 500;
+    color:#070606;
+	padding: 10px 10px;
+	cursor: pointer;	
+	text-transform: uppercase;
+}
+
+#linqet_e_navigimit li::after{
+	content: '';
+	height: 3px;
+	width: 0px;
+	background: #1d3581;
+	position: absolute;
+	left:0px;
+	bottom: -10px;
+	transition: 0.5s;
+}
+
+#linqet_e_navigimit li:hover::after{
+	width: 100%;
+
+}
     .tohoku{
         text-align: center;
         padding-bottom: 40px;
@@ -86,7 +67,6 @@ body{
         color: #171819;
         font-weight: bold;
         position: relative;
-        z-index: 1;
         display: inline-block;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
     }
@@ -109,7 +89,6 @@ body{
         color: #171819;
         font-weight: normal;
         position: relative;
-        z-index: 1;
         display: inline-block;
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
     }
@@ -133,6 +112,7 @@ body{
     .places{
         flex-basis: 50%;
     }
+    
     
     .places h1{
         text-align: center;
@@ -292,7 +272,7 @@ body{
 }
 
 .contenth7 p{
-    font-family:"Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans";
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
 }
 
 .places3{
@@ -480,13 +460,13 @@ body{
     border-radius: 10px;
 }
 footer{
-    background-color: #998c85;
-    line-height: 24px;
-    color:white;
+    background-color: #738dac;
+    line-height: 25px;
+    color: white;
   }
   
   .art{
-    background-color: #171819;
+    background-color: #121c29;
     padding: 16px;
     padding-top: 48px;
     clip-path: polygon(0% 5%,15% 0%, 100% 10%, 100% 100%, 0% 100%);
@@ -496,7 +476,7 @@ footer{
     max-width: 1080px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns:repeat(3,1fr);
     grid-gap: 16px;
   }
   
@@ -510,13 +490,13 @@ footer{
     text-decoration: none;
     display: block;
     padding: 16px;
-    color: white;
+    color: rgb(255, 255, 255);
     opacity: 0.65;
   }
   
   .content a:hover{
     opacity: 1;
-    color: #998c85;
+    color: #868de7;
     font-size: 17px;
     transition: all 0.3s ease 0s;
   }
@@ -539,8 +519,8 @@ footer{
   
   footer input[type='mail']:hover,
   footer input[type='mail']:focus{
-    border-color:#ffff00; 
-    color: #ffff00;
+    border-color:#00b7ff; 
+    color: #00b7ff; ;
     transition: all 0.3s ease 0s;
   }
   
@@ -573,8 +553,8 @@ footer{
     }
   
   .social i:hover{
-    color:#ffff00;
-    border-color: #ffff00;
+    color: #00b7ff;
+    border-color:  #00b7ff;
     box-shadow: 0px 0px 16px inset #ffff0031;
     transition: all 0.3s ease 0s;
   }
