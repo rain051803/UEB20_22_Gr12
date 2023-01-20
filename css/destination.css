@@ -6,14 +6,15 @@
 }
 .navigimi{
 	position: fixed;
-    display:flex;
+	display:flex;
 	flex-direction: row;
-    justify-content: space-between;
+	justify-content: space-between;
+	align-items: center;
 	width: 100%;
 	padding: 16px 104px;
 	background:#fff;
 	z-index: 9999;
-	border-bottom: 1px solid #423e3c;
+	border-bottom: 1px solid #2e2b29;
 	height: 80px;
 }
 #linqet_e_navigimit {
@@ -38,6 +39,18 @@
 	padding: 10px 10px;
 	cursor: pointer;	
 	text-transform: uppercase;
+}
+#linqet_e_navigimit li a{
+	
+	border-bottom: 5px ;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius:8px; 
+	border-right: 1px ;
+	border-top: 1px ;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-left: 1px ;
+	
 }
 
 #linqet_e_navigimit li::after{
