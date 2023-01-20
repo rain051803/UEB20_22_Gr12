@@ -12,6 +12,8 @@
   </head>
 
 <body>
+   
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 <div class="navigimi">
     <a href ="home.html"><img src="../images/logo.png"></a>   
@@ -60,9 +62,9 @@
     </div>
 </div>
 <div class="d-flex flex-column">
-<div class="kontakt">
+<div class="kontakt" >
   
-    <h2>Feel free to ask anything</h2>
+    <h2>Share your journey</h2>
     <div class="submit">
       <div >
       <input type="text" name="" placeholder="name">
@@ -81,18 +83,36 @@
           Choose a Photo
         </label>
         </div>
-      <div id="button1">
-        <br>
-      <a href="#">Send message</a>
-      </div>  
+      </div>
+    
+         <br>
+        <button type="submit" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#myModal"
+        >Submit</button>
+        
       
-    </div>
+        <div class="modal center" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content ">
+                    <div class="modal-header">
+                        <img src="../images/tick.png" width="50px">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                            <p>Your photo has been submitted successfully!</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-success" data-bs-dismiss="modal" >Close</button>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
   
 
 </div>
 </div>
-
-
 
 
 
@@ -140,4 +160,5 @@
       </div>
     </div>
   </footer>
+  
 </body>
