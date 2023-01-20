@@ -181,11 +181,10 @@
         color: #171819;
         font-weight: bold;
         position: relative;
-        z-index: 1;
         display: inline-block;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
     }
-    .contenth5{
+    /*.contenth5{
         width: 85%;
         margin: auto;
         color: black;
@@ -193,9 +192,9 @@
         flex-wrap: wrap;
         align-items: center;
         text-align: center;
-        flex-direction: row-reverse;
         justify-content: center;
     }
+    */
     
     .contenth5 p{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
