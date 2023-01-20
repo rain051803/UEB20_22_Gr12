@@ -22,7 +22,7 @@ html{
 	padding: 16px 104px;
 	background:#fff;
 	z-index: 9999;
-	border-bottom: 1px solid #423e3c;
+	border-bottom: 1px solid #2e2b29;
 	height: 80px;
 }
 #linqet_e_navigimit {
@@ -47,6 +47,18 @@ html{
 	padding: 10px 10px;
 	cursor: pointer;	
 	text-transform: uppercase;
+}
+#linqet_e_navigimit li a{
+	
+	border-bottom: 5px ;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius:8px; 
+	border-right: 1px ;
+	border-top: 1px ;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	border-left: 1px ;
+	
 }
 
 #linqet_e_navigimit li::after{
@@ -248,13 +260,13 @@ label[for='file']{
 
 
 footer{
-    background-color: #998c85;
+    background-color: #738dac;
     line-height: 24px;
     color:white;
   }
   
   .art{
-    background-color: #171819;
+    background-color: #121c29;
     padding: 16px;
     padding-top: 48px;
     clip-path: polygon(0% 5%,15% 0%, 100% 10%, 100% 100%, 0% 100%);
@@ -278,13 +290,13 @@ footer{
     text-decoration: none;
     display: block;
     padding: 16px;
-    color: white;
+    color: rgb(255, 255, 255);
     opacity: 0.65;
   }
   
   .content a:hover{
     opacity: 1;
-    color: #998c85;
+    color: #868de7;
     font-size: 17px;
     transition: all 0.3s ease 0s;
   }
@@ -307,8 +319,8 @@ footer{
   
   footer input[type='mail']:hover,
   footer input[type='mail']:focus{
-    border-color:#ffff00; 
-    color: #ffff00;
+    border-color:#00b7ff; 
+    color: #00b7ff;
     transition: all 0.3s ease 0s;
   }
   
@@ -341,8 +353,8 @@ footer{
 		}
 	  
 	  .social i:hover{
-		color:#ffff00;
-		border-color: #ffff00;
+		color:#00b7ff;
+		border-color: #00b7ff;
 		box-shadow: 0px 0px 16px inset #ffff0031;
 		transition: all 0.3s ease 0s;
 	  }
@@ -353,7 +365,6 @@ footer{
 	  }
 	  
 	  .notice strong{
-		color:red;
+		color:rgb(255, 0, 0);
 		text-transform: uppercase;
 	  }
-	
