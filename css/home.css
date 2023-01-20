@@ -22,10 +22,16 @@ html{
 	padding: 16px 104px;
 	background:#fff;
 	z-index: 9999;
-	border-bottom: 1px solid #2e2b29;
+	border-bottom: 1px solid #423e3c;
 	height: 80px;
-	
 }
+#linqet_e_navigimit {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
 #linqet_e_navigimit li{
 
 	list-style: none;
@@ -42,18 +48,6 @@ html{
 	cursor: pointer;	
 	text-transform: uppercase;
 }
-#linqet_e_navigimit li a{
-	
-	border-bottom: 5px ;
-	border-bottom-left-radius: 8px;
-	border-bottom-right-radius:8px; 
-	border-right: 1px ;
-	border-top: 1px ;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
-	border-left: 1px ;
-	
-}
 
 #linqet_e_navigimit li::after{
 	content: '';
@@ -68,11 +62,12 @@ html{
 
 #linqet_e_navigimit li:hover::after{
 	width: 100%;
+
 }
 .prapavija{
 	background-image: url(../images/foto4.jpg);
 	width:100%;
-	height: 110vh;
+	height: 100vh;
 	background-size: cover;
 	z-index: -1;
 }
