@@ -181,9 +181,22 @@ html{
 	padding: 128px;
 	justify-content: space-between;
 	width:60%;
-	
+
 
 }
+.modal-dialog {
+	position: absolute;
+	top: 75px;
+	right: 100px;
+	bottom: 0;
+	left: 0;
+	z-index: 10040;
+	overflow: auto;
+	overflow-y: auto;
+  }
+
+
+
 
 .kontakt h2{
 	font-size: 32px;
@@ -227,64 +240,7 @@ label[for='file']{
 }
 
 
-#button1{
-	background-color: #070606;
-	margin: 13px 0px;
-	display: flex;
-	justify-content: center;
-	height: 30px;
-	text-decoration: none;
-}
-
-#button1 :hover{
-	border-bottom: 4px solid red;
-	background-color: #111;
-	color:#fff;
-	font-weight: 600;
-	transition: all 0.3s ease 0s;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 
 
 
