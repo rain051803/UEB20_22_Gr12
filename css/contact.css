@@ -52,6 +52,7 @@ html{
 	cursor: pointer;	
 	text-transform: uppercase;
 }
+/*
 #linqet_e_navigimit li a{
 	
 	border-bottom: 5px ;
@@ -63,7 +64,7 @@ html{
 	border-top-right-radius: 8px;
 	border-left: 1px ;
 	
-}
+}*/
 
 #linqet_e_navigimit li::after{
 	content: '';

@@ -48,18 +48,7 @@ html{
 	cursor: pointer;	
 	text-transform: uppercase;
 }
-#linqet_e_navigimit li a{
-	
-	border-bottom: 5px ;
-	border-bottom-left-radius: 8px;
-	border-bottom-right-radius:8px; 
-	border-right: 1px ;
-	border-top: 1px ;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
-	border-left: 1px ;
-	
-}
+
 
 #linqet_e_navigimit li::after{
 	content: '';
