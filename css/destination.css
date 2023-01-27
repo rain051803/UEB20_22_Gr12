@@ -40,9 +40,9 @@
 	cursor: pointer;	
 	text-transform: uppercase;
 }
-#linqet_e_navigimit li a{
+/*#linqet_e_navigimit li a{
 	
-	border-bottom: 5px ;
+	border-bottom: 20px ;
 	border-bottom-left-radius: 8px;
 	border-bottom-right-radius:8px; 
 	border-right: 1px ;
@@ -52,6 +52,7 @@
 	border-left: 1px ;
 	
 }
+*/
 
 #linqet_e_navigimit li::after{
 	content: '';
@@ -197,7 +198,7 @@
         display: inline-block;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
     }
-    /*.contenth5{
+    .contenth5{
         width: 85%;
         margin: auto;
         color: black;
@@ -207,7 +208,7 @@
         text-align: center;
         justify-content: center;
     }
-    */
+    
     
     .contenth5 p{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
