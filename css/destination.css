@@ -40,7 +40,7 @@
 	cursor: pointer;	
 	text-transform: uppercase;
 }
-/*#linqet_e_navigimit li a{
+#linqet_e_navigimit li a{
 	
 	border-bottom: 20px ;
 	border-bottom-left-radius: 8px;
@@ -52,7 +52,6 @@
 	border-left: 1px ;
 	
 }
-*/
 
 #linqet_e_navigimit li::after{
 	content: '';
